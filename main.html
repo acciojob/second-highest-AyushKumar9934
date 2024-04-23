@@ -10,7 +10,9 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
-			      return  arr.sort().reverse()[1];
+			
+			     if(arr.length<=1 || arr.sort[0]==arr.sort[arr.length-1])return -Infinity;
+       return  arr.sort().reverse()[1];
 		}
 
 		function Main() {
