@@ -10,7 +10,7 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
-			
+			      return  arr.sort().reverse()[1];
 		}
 
 		function Main() {
@@ -19,6 +19,7 @@
 			for (var i = 0; i < n; i++) {
 				arr[i] = prompt("Enter element " + (i+1));
 			}
+			
 			alert(secondHighest(arr));
 		}
 		Main();
